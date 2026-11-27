@@ -1,5 +1,19 @@
 # Hand-Gesture MIDI Instrument — detection study
 
+> The paper based on this study, "Designing a Camera-Based Hand-Gesture MIDI Instrument," has been conditionally accepted by the International Journal of High School Research (IJHSR).
+
+## About this project
+
+I have played guitar for about nine years, and I noticed that beginners often struggle just to make a sound on it. I wanted an instrument that anyone with a laptop could play using only the built-in camera, with gestures as simple as pressing a button in GarageBand. Hand height sets the pitch, and opening and closing the hand records the melody just played and loops it.
+
+This repository is the detection study behind the next version of that instrument. It asks whether a hand-gesture detection model can run fast enough on an ordinary laptop. The short answer is yes; see Headline results below.
+
+## Demo
+
+[Watch the demo video](https://youtu.be/CEyOR6d2yMg)
+
+The video shows the playable version of the instrument, which uses YOLOv8 hand-pose and runs in Cubase. This repository is a separate study that compares YOLO26 and DEIMv2 for the next version.
+
 Is a vision-based hand-gesture MIDI instrument deployable on a consumer laptop?
 
 **Yes.** YOLO26-s at 320 px, axis-aligned, exported to Core ML, sustains **7.93 ms** on a
@@ -151,4 +165,4 @@ Glenn Jocher and Jing Qiu(2026),  _Ultralytics YOLO 26_,   [Computer software], 
 
 Shihua Huang, Yongjie Hou, Longfei Liu, Xuanlong Yu, and Xi Shen(2025),  _[DEIMv2] Real Time Object Detection Meets DINOv3_,  [Computer software],  GitHub.(https://github.com/Intellindust-AI-Lab/DEIMv2)
 
-If this is useful, please cite the report. Study conducted August 2026.
+If this is useful, please cite the paper (conditionally accepted, IJHSR). Until it is published, cite REPORT.md. Study conducted August 2026.
