@@ -14,6 +14,8 @@ This repository is the detection study behind the next version of that instrumen
 
 The video shows the playable version of the instrument, which uses YOLOv8 hand-pose and runs in Cubase. This repository is a separate study that compares YOLO26 and DEIMv2 for the next version.
 
+## The study in brief
+
 Is a vision-based hand-gesture MIDI instrument deployable on a consumer laptop?
 
 **Yes.** YOLO26-s at 320 px, axis-aligned, exported to Core ML, sustains **7.93 ms** on a
